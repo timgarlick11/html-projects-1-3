@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.right {
+    height: 100%;
+    width: 100%;
+    background: hsla(96,65%,74%,1);
+    position: fixed;
+    
+}
+.center {
+    height: 100%;
+    width: 66%;
+    background: hsla(169,75%,56%,1);
+    position: fixed;
+}
+.left {
+    height: 100%;
+    width: 33%;
+    background: hsla(209,68%,56%,1);
+    position: fixed;
+}
+.bottom {
+    height: 25%;
+    width: 33%;
+    position: fixed;
+    background: hsla(351,100%,42%,1);
+    bottom: 0%;
+    margin-left: 66%;
+    text-align: center;
+   
+}
+
+
+p {
+    margin-top: 25%;
+    color: hsla(0,0%,100%,1);
+        
+}
