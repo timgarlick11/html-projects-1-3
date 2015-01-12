@@ -1,0 +1,41 @@
+html, body {
+
+}
+.back {
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    
+    background: hsla(0,0%,94%,1);
+}
+.bottom {
+    bottom: 0;
+    height: 12%;
+    width: 60%;
+    position: absolute;
+    background: hsla(0,0%,13%,1);
+    border: 0;
+    padding: 0;
+    
+    
+    
+}
+.leftSide {
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    background: hsla(0,0%,85%,1);
+}
+.rightSide {
+    margin-left: 50%;
+    height: 100%;
+    width: 10%;
+    position:absolute;
+    background: hsla(0,0%,85%,1);
+}
+.top {
+    width: 60%;
+    height: 25%;
+    position: absolute;
+    background: hsla(0,0%,27%,1);
+}
