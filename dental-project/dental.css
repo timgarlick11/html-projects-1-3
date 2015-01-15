@@ -1,0 +1,183 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.container {
+	background: hsla(206,100%,32%,1);
+	height:100%;
+	width: 100%;
+	overflow: auto;
+	margin:0;
+	
+	
+}
+.top_header {
+	height: 55px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background: hsla(206,100%,28%,1);
+	border-bottom: 1px solid hsla(206,60%,51%,1);
+	box-sizing: border box;
+
+}
+.top {
+	height: 75%;
+	margin-top: 10px;
+	width: 550px;
+	border: 1px solid yellow;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.address {
+	color:white;
+	font-size: 11px;
+}
+.number{
+	text-align: center;
+	color: white;
+	width: 10%;
+
+}
+.social {
+	width:10%;
+	display:flex;
+	justify-content:space-between;
+
+}
+
+
+.middle_container {
+	background: white;
+	width: 77%;
+	height: 2800px;
+	margin: 30px auto 60px auto;
+	padding-top: 30px;
+	box-sizing: border-box;
+	border: 5px solid black;
+	
+
+
+		
+	
+}
+.header {
+	width: 90%;
+	height: 100px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	
+	margin: 0 auto;
+	
+}
+.header_icon {
+	width: 315px;
+	height:77%;
+	float: left;
+	margin: 10px 5px 5px 15px;
+	border: 1px solid red;
+	box-sizing:border-box;
+	background-image: url(http://www.slcdentalcenter.com/wp-content/themes/slcdental/images/logo.png);
+}
+.header_links {
+	
+	float: right;
+	height: 70%;
+	width: 500px;
+	box-sizing: border-box;
+	border: 1px solid red;
+	margin: 15px 15px 5px 0;
+}
+.header_links_inner {
+	width: 100%;
+	height: 30px;
+	margin: 10px auto 5px auto;
+	border: 1px solid red;
+}
+
+li {
+	font-size: 20px;
+	display: inline;
+	margin: 10px;
+	color: hsla(205,70%,42%,1);
+
+}
+.main_image {
+	
+	height: 360px;
+	width: 90%;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 30px auto 30px auto;
+	box-sizing: border-box;
+	background-image: url("http://www.slcdentalcenter.com/wp-content/uploads/Salt-Lake-City-Dentist-Great-Staff.png");
+
+}
+.container_three_images {
+	height: 500px;
+	width:90%;
+	display: flex;
+	box-sizing:border-box;
+	border: 1px solid red;
+	margin: 0 auto;
+	justify-content: space-between;
+
+
+}
+.column{
+	border:1px solid black;
+	width: 32%;
+	height: 100%;
+	box-sizing: border-box;
+	margin:0;
+	
+}
+
+.row_left {
+	width: 100%;
+	border: 1px solid red;
+	box-sizing: border-box;
+}
+.row_middle{
+	width: 100%;
+	border: 1px solid red;
+	box-sizing: border-box;
+
+}
+.row_right {
+	
+	width: 100%;
+	border: 1px solid red;
+	box-sizing: border-box
+
+}
+.top { 
+background-image: url();
+height: 50%;
+}
+.middle {
+	height: 30%;
+}
+.bottom {
+	height: 20%;
+}
+.second_main_image {
+	height: 1078px;
+	width: 90%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin: 20px auto 30px auto;
+}
+
+.video {
+	height: 520px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center; */ you have to have the container elememt of a video set to "text-align: center"; for video to be centered horizontally */
+}
+
